@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Report Settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Delete Reports on Update</string>
+			<key>Key</key>
+			<string>DELETEREPUPDATE</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Web Service URL&apos;s</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>DefaultValue</key>
+			<string>http://a3p.ca/SSWeather/S.svc</string>
+			<key>Title</key>
+			<string>Weather</string>
+			<key>Key</key>
+			<string>WEATHERWEBSERVICEURL</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>DefaultValue</key>
+			<string>http://a3p.ca/S.svc</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>WEBSERVICEURL</string>
+			<key>Title</key>
+			<string>Service</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>http://a3p.ca/SS.svc</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Stream</string>
+			<key>Key</key>
+			<string>STREAMEDWEBSERVICEURL</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
